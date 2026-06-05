@@ -1,0 +1,164 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#020817;
+color:white;
+padding:40px;
+}
+
+.container{
+display:flex;
+gap:25px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:#081126;
+border:1px solid #17355c;
+border-radius:16px;
+padding:25px;
+width:370px;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+.upload-box{
+border:2px dashed #4f6b9a;
+border-radius:12px;
+padding:50px 20px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.upload-box input{
+margin-bottom:15px;
+}
+
+.upload-box p{
+font-size:22px;
+font-weight:600;
+}
+
+.upload-box span{
+color:#8b9dbd;
+}
+
+textarea{
+width:100%;
+height:140px;
+background:#030b1d;
+border:1px solid #304766;
+border-radius:10px;
+padding:15px;
+color:white;
+margin-bottom:20px;
+resize:none;
+}
+
+.jd-box{
+height:280px;
+}
+
+.formats{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.formats span{
+background:#0b2a4d;
+padding:8px 15px;
+border-radius:8px;
+}
+
+#analyzeBtn{
+width:100%;
+padding:18px;
+border:none;
+border-radius:12px;
+font-size:20px;
+font-weight:600;
+cursor:pointer;
+
+background:linear-gradient(
+90deg,
+#00c6ff,
+#3a7bfd
+);
+
+color:white;
+margin-bottom:20px;
+}
+
+.info{
+text-align:center;
+color:#9bb0d3;
+}
+
+.generated-box{
+height:430px;
+border:1px solid #304766;
+border-radius:12px;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+margin-bottom:20px;
+color:#9bb0d3;
+}
+
+.download-btn{
+width:100%;
+padding:18px;
+background:#0f9d58;
+border:none;
+border-radius:12px;
+font-size:20px;
+font-weight:600;
+color:white;
+cursor:pointer;
+}
+
+.jobs-section{
+margin-top:40px;
+background:#081126;
+border:1px solid #17355c;
+border-radius:16px;
+padding:30px;
+}
+
+.jobs-section h2{
+margin-bottom:10px;
+}
+
+.jobs-section p{
+color:#9bb0d3;
+}
+
+.jobs-box{
+margin-top:25px;
+height:280px;
+border:2px dashed #304766;
+border-radius:15px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+padding:20px;
+}
+
+.jobs-box h3{
+font-size:30px;
+margin-bottom:15px;
+}
